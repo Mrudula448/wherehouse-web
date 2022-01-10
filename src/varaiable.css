@@ -1,0 +1,43 @@
+:root{
+    --backgroundcolor:#f8f8f8;
+    --textcolor:black;
+    --green: #3FB618;
+    --blue: #2780E3;
+    --black: #000000;
+    --indigo: #6610f2;
+    --purple: #613d7c;
+    --pink: #e83e8c;
+    --red: #FF0039;
+    --orange: #f0ad4e;
+    --yellow: rgb(238, 220, 208);
+    --teal: #20c997;
+    --cyan: #9954BB;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #373a3c;
+    --primary: #2780E3;
+    --secondary: #373a3c;
+    --success: #3FB618;
+    --info: #9954BB;
+    --warning: #FF7518;
+    --danger: #FF0039;
+    --light: #f8f9fa;
+    --light-gray:#f8f8f8;
+    --placeholder:#aaa;
+    --light-grey:#ccc;
+    --bordercolor:#ced4da;
+    --dark: #373a3c;
+    --font-family-sans-serif: "Segoe UI", "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+    --font-size:12px;
+    --header-fontsize:14px;
+    --box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    --box-shadow-aside:0 3px 30px rgb(0 0 0 / 10%), 0 3px 20px rgb(0 0 0 / 10%);
+    
+    
+}
+body{
+    background-color: var(--backgroundcolor) !important;
+    color: var(--textcolor);
+    font-size: var(--font-size);
+    font-family: var(--font-family-sans-serif);
+}
